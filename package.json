@@ -6,8 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "tsc && webpack --config webpack.config.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "vercel"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "webflow",
@@ -18,9 +17,7 @@
   "license": "MIT",
   "dependencies": {
     "@heroicons/react": "^2.2.0",
-    "axios": "^1.11.0",
-    "next": "^15.4.5",
-    "vercel": "^44.6.4"
+    "axios": "^1.11.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
@@ -29,8 +26,6 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "15.4.4",
-    "tailwindcss": "^4",
     "ts-loader": "^9.5.2",
     "typescript": "^5.8.3",
     "webpack": "^5.101.0",

@@ -9,7 +9,7 @@
   "routes": [
     {
       "src": "/api/search",
-      "dest": "serverless/search.js"
+      "dest": "/api/search"
     }
   ]
 }
